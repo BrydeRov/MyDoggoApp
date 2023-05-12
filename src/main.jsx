@@ -21,7 +21,8 @@ import AppLayout from './assets/Layouts/AppLayout.jsx';
 import App from './App.jsx';
 
 // POSTS
-import PostsIndex from './Pages/Posts/Index.jsx';
+import RecipesIndex from './Pages/Recipes/Index.jsx';
+import ToDoIndex from './Pages/ToDo/Index.jsx'  
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -32,7 +33,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route index element={<AppLayout/>}/>
-        <Route path='/Posts/' element={<PostsIndex/>}/>
+        <Route path='/Recipes/' element={<RecipesIndex/>}/>
+        <Route path='/ToDo/' element={<ToDoIndex/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

@@ -22,7 +22,10 @@ return (
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/Posts/">Posts</Link>
+                        <Link className="nav-link" to="/Recipes/">Recipes</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link" to="/ToDo/">To Do</Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="https://github.com/BrydeRov">
